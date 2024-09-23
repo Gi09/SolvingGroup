@@ -1,0 +1,58 @@
+<div class="container-fluid">
+  <div class="row">
+    <!-- Painel Esquerdo -->
+    <div class="col-md-3 left-panel">
+      <!-- Botões de Navegação -->
+      <div class="d-flex justify-content-between mb-4">
+        <a (click)="voltarPagina()" class="btn btn-danger flex-grow-1 me-2 text-center">
+          &larr; Início
+        </a>
+        <!-- Botão de Próximo -->
+        <button (click)="proximoModulo()" class="btn btn-warning flex-grow-1 ms-2 text-center">Próximo</button>
+        <!-- Botão de Voltar -->
+        <button (click)="voltarModulo()" class="btn btn-warning flex-grow-1 ms-2 text-center">Voltar</button>
+      </div>
+
+      <!-- Lista de Módulos -->
+      <h3>Módulos</h3>
+      <ul class="list-group">
+        <li *ngFor="let modulo of treinamentoSelecionado?.modulos; let i = index"
+            [class.active]="i === moduloAtual"
+            class="list-group-item list-group-item-action"
+            (click)="selecionarModulo(i)">
+          {{ modulo.titulo }}
+        </li>
+      </ul>
+
+      <!-- Informações do Módulo Selecionado -->
+      <div *ngIf="moduloSelecionado" class="module-info mt-3">
+        <p><strong>Possui certificação?</strong> {{ moduloSelecionado.certificacao ? 'Sim' : 'Não' }}</p>
+        <p><strong>Pré-Requisitos:</strong> {{ moduloSelecionado.preRequisitos || 'Nenhum' }}</p>
+        <p><strong>Público:</strong> {{ moduloSelecionado.publico || 'Geral' }}</p>
+        <p><strong>Obrigatório:</strong> {{ moduloSelecionado.obrigatorio ? 'Sim' : 'Não' }}</p>
+      </div>
+    </div>
+
+    <!-- Painel Direito -->
+    <div class="col-md-9 right-panel">
+      <h1>{{ moduloSelecionado?.titulo || 'Selecione um Módulo' }}</h1>
+      <p>{{ moduloSelecionado?.descricao || 'Descrição não disponível.' }}</p>
+
+      <!-- Imagem do Módulo -->
+      <div *ngIf="moduloSelecionado?.imagem" class="mb-3">
+        <img [src]="moduloSelecionado?.imagem" alt="Imagem do Módulo" class="img-fluid">
+      </div>
+
+      <!-- Vídeo do Módulo -->
+      <div *ngIf="videoUrl" class="mb-3">
+        <iframe [src]="videoUrl" width="100%" height="315" frameborder="0" allowfullscreen></iframe>
+      </div>               
+    </div>
+
+    <!-- Botão de conclusão do curso -->
+    <button *ngIf="isUltimoModulo()" (click)="concluirCurso()" class="btn btn-primary" id="concluir">
+      Concluir Curso
+    </button>
+
+  </div>
+</div>

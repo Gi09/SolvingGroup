@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Treinamentos Eurofarma</title>
+    <link rel="stylesheet" href="home.component.css">
+    <!-- Importar ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+      <h1>Bem-vindo à Plataforma {{usuario?.nome}} de Treinamentos Eurofarma!</h1>
+    </div>
+  
+    <!-- Exibe o dashboard apenas para administradores -->
+    <iframe *ngIf="isAdmin"
+            title="Análise de Desempenho - Log dos Treinamentos"
+            width="100%"
+            height="600"
+            src="https://app.powerbi.com/view?r=eyJrIjoiODU2M2JmYzctMDk2Yi00ODA3LWI2NjktZTcxNGFkMGVkYmE2IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9"
+            frameborder="0"
+            allowFullScreen="true">
+    </iframe>
+  
+    <div class="container">
+      <div class="todos-cursos">
+        <h2 class="header">Cursos Disponíveis</h2>
+        <div class="todos-cursos-container">
+          <ng-container *ngFor="let item of treinamentos; let i = index;">
+            <div class="curso-card">
+              <a [routerLink]="['/treinamentos', item.id]" class="curso-card-link">
+                <img [src]="item.imagem" alt="Curso {{i + 1}}">
+                <div class="card-body">
+                  <h5 class="card-title">{{item.titulo}}</h5>
+                </div>
+              </a>
+            </div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+
+</html>

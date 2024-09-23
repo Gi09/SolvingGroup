@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 72, 142);; /* Azul escuro */
+    color: white;
+    padding: 10px 20px;
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+}
+
+.profile-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    height: 100vh; /* Faz o main ocupar toda a altura da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-primary {
+    background-color: rgb(0, 72, 142) !important; /* Azul escuro */
+}
+
+.bg-warning {
+    background-color: #ffc107 !important; /* Amarelo */
+    border-radius: 30px;
+    
+}
+
+.text-dark {
+    color: #343a40 !important; /* Cinza escuro */
+}
+
+p {
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.card-body p {
+    margin: 0;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.col-12 {
+    padding: 0;
+}
+
+.col-md-8 {
+    padding: 20px;
+}
+
+.col-md-4 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}

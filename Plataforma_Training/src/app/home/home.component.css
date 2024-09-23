@@ -1,0 +1,97 @@
+/* Reset básico */
+body, html, div, h1, h2, p, img, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 72, 142);
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+    height: 100%;               
+    margin: 0;  
+    padding: 20px;
+}
+
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0082CB;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+/* Seção Todos os Cursos */
+.todos-cursos h2 {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Configuração Flexbox para os contêineres */
+.todos-cursos-container {
+    display: flex;           
+    flex-wrap: wrap;        
+    gap: 30px;              
+    justify-content: center; 
+}
+
+.curso-card {
+    width: 250px;          
+    border-radius: 20px;   
+    overflow: hidden;      
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: flex-start; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.419); 
+    background-color: #fff; 
+}
+
+.curso-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.curso-card img {
+    width: 100%;             
+    height: auto;            
+    aspect-ratio: 4 / 3;     
+    object-fit: cover;       
+    border-radius: 20px 20px 0 0;
+    display: block;          /* Remove o gap em cima */
+}
+
+
+.card-body {
+    text-align: center;     
+    padding: 10px;          
+    background-color: #fff; 
+    width: 100%;            /* Garante que a largura do card-body é igual à do curso-card */
+}
+
+.card-title {
+    font-size: 1.2em;       
+    color: #333;            
+    margin: 4;              /* Remove margens extras */
+}

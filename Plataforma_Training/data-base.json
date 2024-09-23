@@ -1,0 +1,190 @@
+{
+  "treinamentos": [
+    {
+      "id": "1",
+      "titulo": "Treinamento de Integração",
+      "descricao": "Treinamento de integração para novos colaboradores.",
+      "imagem": "/assets/img/1.png",
+      "video": "https://www.youtube.com/watch?v=example1",
+      "modulos": [
+        {
+          "moduloId": "1",
+          "titulo": "Introdução à Eurofarma",
+          "descricao": "A Eurofarma é uma empresa farmacêutica brasileira com um forte compromisso com a inovação e a qualidade. Neste módulo, exploraremos a história da empresa, suas principais áreas de atuação e a importância de sua missão e valores. Você aprenderá sobre a cultura da empresa e como cada colaborador contribui para o sucesso coletivo.",
+          "certificacao": true,
+          "preRequisitos": "Nenhum",
+          "publico": "Funcionários e parceiros",
+          "obrigatorio": true,
+          "imagem": "/assets/img/5.png"
+        },
+        {
+          "moduloId": "2",
+          "titulo": "Pesquisa e Desenvolvimento",
+          "descricao": "Este módulo explora as iniciativas de P&D da Eurofarma, detalhando o processo de desenvolvimento de novos produtos desde a concepção até o lançamento. Você verá como a empresa investe em inovação para atender às necessidades do mercado e melhorar a qualidade de vida dos pacientes.",
+          "certificacao": true,
+          "preRequisitos": "Introdução à Eurofarma",
+          "publico": "Profissionais de P&D",
+          "obrigatorio": true,
+          "video": "https://www.youtube.com/watch?v=zsdol-0_Tro"
+        },
+        {
+          "moduloId": "3",
+          "titulo": "Produção e Qualidade",
+          "descricao": "Neste módulo, exploraremos os processos envolvidos na produção de medicamentos na Eurofarma, desde a fabricação até o controle de qualidade. Você aprenderá sobre as práticas de produção seguras, os testes de qualidade e como a empresa garante que seus produtos atendam aos mais altos padrões.",
+          "certificacao": true,
+          "preRequisitos": "Pesquisa e Desenvolvimento",
+          "publico": "Engenheiros e Técnicos",
+          "obrigatorio": true,
+          "imagem": "/assets/img/1.png"
+        },
+        {
+          "moduloId": "4",
+          "titulo": "Marketing e Vendas",
+          "descricao": "Neste módulo, mergulharemos nas estratégias de marketing e vendas essenciais para o sucesso comercial da Eurofarma. Você aprenderá sobre o desenvolvimento de campanhas eficazes, técnicas de venda e como a empresa posiciona seus produtos no mercado para maximizar o impacto.",
+          "certificacao": true,
+          "preRequisitos": "Nenhum",
+          "publico": "Área Comercial",
+          "obrigatorio": false,
+          "imagem": "/assets/img/7.png"
+        },
+        {
+          "moduloId": "5",
+          "titulo": "Normas regulamentadoras",
+          "descricao": "Normas regulamentadoras são essenciais para garantir a segurança e a conformidade nas operações. Este módulo cobre as principais normas regulamentadoras, suas características e a importância de seguir essas diretrizes para manter um ambiente de trabalho seguro e eficiente.",
+          "certificacao": true,
+          "preRequisitos": "Nenhum",
+          "publico": "Geral",
+          "obrigatorio": false,
+          "video": "https://www.youtube.com/watch?v=kD35T27sytI&list=PPSV"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "titulo": "Treinamento de Segurança no Trabalho",
+      "descricao": "Capacitação sobre segurança no ambiente de trabalho.",
+      "imagem": "/assets/img/2.png",
+      "video": "https://www.youtube.com/watch?v=example2",
+      "modulos": [
+        {
+          "moduloId": "6",
+          "titulo": "Segurança Geral",
+          "descricao": "Este módulo aborda os princípios básicos de segurança no trabalho, incluindo a identificação de riscos e a implementação de práticas para minimizar acidentes. Você aprenderá sobre responsabilidades, regulamentações e estudos de caso que ilustram medidas corretivas em situações de segurança.",
+          "certificacao": true,
+          "preRequisitos": "Nenhum",
+          "publico": "Todos os funcionários",
+          "obrigatorio": true,
+          "imagem": "/assets/img/6.png"
+        },
+        {
+          "moduloId": "7",
+          "titulo": "Uso de EPIs",
+          "descricao": "Este módulo ensina o uso correto de Equipamentos de Proteção Individual (EPIs), incluindo a seleção, utilização e manutenção desses equipamentos. Você aprenderá sobre diferentes tipos de EPIs, sua aplicação prática e como garantir um ajuste adequado para uma proteção eficaz.",
+          "certificacao": true,
+          "preRequisitos": "Segurança Geral",
+          "publico": "Todos os funcionários",
+          "obrigatorio": true,
+          "imagem": "/assets/img/7.png"
+        },
+        {
+          "moduloId": "8",
+          "titulo": "Procedimentos de Emergência",
+          "descricao": "Este módulo cobre os procedimentos a serem seguidos em situações de emergência, como incêndios e vazamentos químicos. Você aprenderá sobre a prática de evacuação, uso de equipamentos de combate a incêndios e técnicas básicas de primeiros socorros para responder rapidamente em crises.",
+          "certificacao": true,
+          "preRequisitos": "Segurança Geral",
+          "publico": "Todos os funcionários",
+          "obrigatorio": true,
+          "imagem": "/assets/img/8.png"
+        },
+        {
+          "moduloId": "9",
+          "titulo": "Segurança Elétrica",
+          "descricao": "Neste módulo, abordaremos os riscos e procedimentos de segurança relacionados à eletricidade. Você aprenderá sobre a manutenção segura de equipamentos elétricos, a identificação de riscos e técnicas para evitar acidentes elétricos, além de análises de casos de falhas elétricas.",
+          "certificacao": true,
+          "preRequisitos": "Segurança Geral",
+          "publico": "Funcionários que lidam com equipamentos elétricos",
+          "obrigatorio": false,
+          "imagem": "/assets/img/9.png"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "titulo": "Boas Práticas",
+      "descricao": "Este treinamento visa proporcionar aos novos colaboradores uma introdução abrangente às boas práticas operacionais e culturais da empresa.",
+      "imagem": "/assets/img/3.png",
+      "video": "https://www.youtube.com/watch?v=example3",
+      "modulos": [
+        {
+          "moduloId": "8",
+          "titulo": "Boas-Vindas",
+          "descricao": "Neste módulo, você será apresentado à história da empresa, missão, visão e valores. Discutiremos o papel de cada colaborador na cultura organizacional e como isso contribui para o sucesso da empresa, além das políticas de inclusão e diversidade promovidas pela Eurofarma.",
+          "certificacao": true,
+          "preRequisitos": "Nenhum",
+          "publico": "Todos os novos colaboradores",
+          "obrigatorio": true,
+          "video": "https://www.youtube.com/watch?v=1xLE0zVkeFE"
+        },
+        {
+          "moduloId": "9",
+          "titulo": "Políticas da Empresa",
+          "descricao": "Este módulo cobre as principais políticas internas da empresa, incluindo o código de conduta, ética no trabalho e normas de compliance. Você aprenderá sobre as expectativas da empresa em relação ao comportamento dos funcionários e como garantir um ambiente de trabalho respeitoso e produtivo.",
+          "certificacao": true,
+          "preRequisitos": "Boas-Vindas",
+          "publico": "Todos os funcionários",
+          "obrigatorio": true,
+          "imagem": "/assets/img/9.png"
+        },
+        {
+          "moduloId": "10",
+          "titulo": "Políticas de Segurança e Compliance",
+          "descricao": "Este módulo aprofunda as políticas de segurança da empresa, discutindo medidas de prevenção de acidentes e protocolos de resposta a emergências. Também aborda normas de compliance para garantir a conformidade com regulamentações externas e internas.",
+          "certificacao": true,
+          "preRequisitos": "Políticas da Empresa",
+          "publico": "Todos os funcionários",
+          "obrigatorio": true,
+          "imagem": "/assets/img/10.png"
+        },
+        {
+          "moduloId": "11",
+          "titulo": "Comunicação Eficaz",
+          "descricao": "Este módulo foca na importância da comunicação clara e eficaz no trabalho. Serão abordadas técnicas para melhorar a comunicação entre equipes, dar e receber feedback, e usar ferramentas de comunicação. Inclui práticas de escuta ativa e resolução de conflitos.",
+          "certificacao": true,
+          "preRequisitos": "Boas-Vindas",
+          "publico": "Todos os colaboradores",
+          "obrigatorio": false,
+          "imagem": "/assets/img/2.png"
+        },
+        {
+          "moduloId": "12",
+          "titulo": "Gestão de Tempo e Produtividade",
+          "descricao": "Neste módulo, você aprenderá técnicas de gestão de tempo para melhorar sua produtividade. Serão abordadas estratégias para priorizar tarefas, lidar com distrações e organizar seu ambiente de trabalho. Inclui dicas para maximizar a eficiência e alcançar seus objetivos pessoais e profissionais.",
+          "certificacao": true,
+          "preRequisitos": "Boas-Vindas",
+          "publico": "Todos os colaboradores",
+          "obrigatorio": false,
+          "imagem": "/assets/img/4.png"
+        }
+      ]
+    }
+  ],
+  
+  "usuarios": [
+      {
+        "id": "1",
+        "nome": "João Silva",
+        "email": "usuario.admin@email.com",
+        "senha": "5678",
+        "role": "admin"
+      },
+      {
+        "id": "2",
+        "nome": "Maria Oliveira",
+        "email": "usuario.padrao@email.com",
+        "senha": "1234",
+        "role": "usuario"
+      }
+    ]
+  
+}
+  

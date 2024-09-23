@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.419);
+}
+
+.navbar img {
+    height: 40px; /* Altura do logo */
+}
+
+.navbar a {
+    color: #00508e;
+    font-size: 1em;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.navbar a:hover {
+    color: #002c4e;
+    transform: scale(1.15);
+}
+
+/* Icone de sair */
+.navbar a .icon {
+    font-size: 1.2em;
+}

@@ -1,0 +1,22 @@
+<body>
+  <div class="welcome-message">
+    <h1>Bem-vindo ao BeGenius, a plataforma de treinamentos da Eurofarma!</h1>
+    <form (submit)="onLogin()">
+      <div class="form-group">
+        <label for="username">Usuário</label>
+        <input type="text" [(ngModel)]="username" class="form-control" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Senha</label>
+        <input type="password" [(ngModel)]="password" class="form-control" id="password" name="password" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+  
+    <!-- Exibe mensagem de erro caso o login falhe -->
+    <div *ngIf="errorMessage" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+    <h3>By Solv!ng</h3>
+  </div>  
+</body>
