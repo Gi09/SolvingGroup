@@ -1,0 +1,3 @@
+titulo : Introdução à Eurofarma
+
+descrição: A Eurofarma é uma empresa farmacêutica brasileira com um forte compromisso com a inovação e a qualidade. Neste módulo, exploraremos a história da empresa, suas principais áreas de atuação e a importância de sua missão e valores. Você aprenderá sobre a cultura da empresa e como cada colaborador contribui para o sucesso coletivo

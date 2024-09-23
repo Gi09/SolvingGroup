@@ -1,0 +1,3 @@
+"titulo": "Políticas de Segurança e Compliance",
+
+ "descricao": "Este módulo aprofunda as políticas de segurança da empresa, discutindo medidas de prevenção de acidentes e protocolos de resposta a emergências. Também aborda normas de compliance para garantir a conformidade com regulamentações externas e internas.",

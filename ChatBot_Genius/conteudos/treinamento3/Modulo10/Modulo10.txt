@@ -1,0 +1,3 @@
+"titulo": "Boas-Vindas",
+
+"descricao": "Neste módulo, você será apresentado à história da empresa, missão, visão e valores. Discutiremos o papel de cada colaborador na cultura organizacional e como isso contribui para o sucesso da empresa, além das políticas de inclusão e diversidade promovidas pela Eurofarma.",

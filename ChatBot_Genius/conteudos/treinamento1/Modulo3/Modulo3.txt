@@ -1,0 +1,3 @@
+titulo: Produção e Qualidade ,
+
+descricao: Neste módulo, exploraremos os processos envolvidos na produção de medicamentos na Eurofarma, desde a fabricação até o controle de qualidade. Você aprenderá sobre as práticas de produção seguras, os testes de qualidade e como a empresa garante que seus produtos atendam aos mais altos padrões.

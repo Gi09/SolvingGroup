@@ -1,0 +1,3 @@
+ "titulo": "Gestão de Tempo e Produtividade",
+
+"descricao": "Neste módulo, você aprenderá técnicas de gestão de tempo para melhorar sua produtividade. Serão abordadas estratégias para priorizar tarefas, lidar com distrações e organizar seu ambiente de trabalho. Inclui dicas para maximizar a eficiência e alcançar seus objetivos pessoais e profissionais.",

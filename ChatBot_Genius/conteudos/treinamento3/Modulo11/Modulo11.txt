@@ -1,0 +1,3 @@
+"titulo": "Políticas da Empresa",
+
+"descricao": "Este módulo cobre as principais políticas internas da empresa, incluindo o código de conduta, ética no trabalho e normas de compliance. Você aprenderá sobre as expectativas da empresa em relação ao comportamento dos funcionários e como garantir um ambiente de trabalho respeitoso e produtivo.",

@@ -1,0 +1,3 @@
+titulo: Procedimentos de Emergência,
+
+descricao: Este módulo cobre os procedimentos a serem seguidos em situações de emergência, como incêndios e vazamentos químicos. Você aprenderá sobre a prática de evacuação, uso de equipamentos de combate a incêndios e técnicas básicas de primeiros socorros para responder rapidamente em crises.

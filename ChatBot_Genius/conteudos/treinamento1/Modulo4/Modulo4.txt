@@ -1,0 +1,3 @@
+titulo: Marketing e Vendas,
+
+descricao: Neste módulo, mergulharemos nas estratégias de marketing e vendas essenciais para o sucesso comercial da Eurofarma. Você aprenderá sobre o desenvolvimento de campanhas eficazes, técnicas de venda e como a empresa posiciona seus produtos no mercado para maximizar o impacto.

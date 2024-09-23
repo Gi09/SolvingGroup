@@ -1,0 +1,3 @@
+titulo: Segurança Elétrica,
+
+descricao: Neste módulo, abordaremos os riscos e procedimentos de segurança relacionados à eletricidade. Você aprenderá sobre a manutenção segura de equipamentos elétricos, a identificação de riscos e técnicas para evitar acidentes elétricos, além de análises de casos de falhas elétricas.

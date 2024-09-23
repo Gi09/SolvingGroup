@@ -1,0 +1,3 @@
+titulo: Uso de EPIs,
+
+descricao: Este módulo ensina o uso correto de Equipamentos de Proteção Individual (EPIs), incluindo a seleção, utilização e manutenção desses equipamentos. Você aprenderá sobre diferentes tipos de EPIs, sua aplicação prática e como garantir um ajuste adequado para uma proteção eficaz.

@@ -1,0 +1,3 @@
+titulo: Segurança Geral,
+
+descricao: Este módulo aborda os princípios básicos de segurança no trabalho, incluindo a identificação de riscos e a implementação de práticas para minimizar acidentes. Você aprenderá sobre responsabilidades, regulamentações e estudos de caso que ilustram medidas corretivas em situações de segurança.

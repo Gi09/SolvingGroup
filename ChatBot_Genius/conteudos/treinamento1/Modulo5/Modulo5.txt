@@ -1,0 +1,3 @@
+titulo: Normas regulamentadoras,
+
+descricao: Normas regulamentadoras são essenciais para garantir a segurança e a conformidade nas operações. Este módulo cobre as principais normas regulamentadoras, suas características e a importância de seguir essas diretrizes para manter um ambiente de trabalho seguro e eficiente.

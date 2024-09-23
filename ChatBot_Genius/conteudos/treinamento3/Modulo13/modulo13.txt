@@ -1,0 +1,3 @@
+"titulo": "Comunicação Eficaz",
+
+"descricao": "Este módulo foca na importância da comunicação clara e eficaz no trabalho. Serão abordadas técnicas para melhorar a comunicação entre equipes, dar e receber feedback, e usar ferramentas de comunicação. Inclui práticas de escuta ativa e resolução de conflitos.",

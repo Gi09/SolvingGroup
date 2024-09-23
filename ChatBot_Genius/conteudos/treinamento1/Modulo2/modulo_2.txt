@@ -1,0 +1,4 @@
+"titulo":Pesquisa e Desenvolvimento
+
+descrição: Este módulo explora as iniciativas de P&D da Eurofarma, detalhando o processo de desenvolvimento de novos produtos desde a concepção até o lançamento. Você verá como a empresa investe em inovação para atender às necessidades do mercado e melhorar a qualidade de vida dos pacientes.
+

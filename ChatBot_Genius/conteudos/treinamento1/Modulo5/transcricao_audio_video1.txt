@@ -1,0 +1,979 @@
+Introdução
+0:03
+Olá seja bem vindo ao nosso canal de
+0:06
+segurança do trabalho
+0:07
+neste vídeo vamos falar sobre cada norma
+0:10
+regulamentadora existente Quais são as
+0:13
+suas principais características
+0:15
+nr1 indisposições gerais
+0:18
+estabelece as responsabilidades os
+0:21
+direitos e os deveres dos empregadores e
+0:23
+dos trabalhadores quanto à segurança e
+0:25
+saúde no trabalho bem como os
+0:27
+procedimentos para gestão de riscos
+0:29
+ocupacionais e a capacitação dos
+0:31
+trabalhadores
+Método QR2 de Estudo
+0:33
+nr2 minha inspeção prévia
+0:36
+revogada
+0:37
+nr3
+0:41
+define os critérios e as condições para
+0:43
+o embargo ou interdição de obras frentes
+0:46
+de trabalho setores de serviço máquinas
+0:49
+ou equipamentos que apresentam grave
+0:50
+iminente risco a segurança ou a saúde
+0:52
+dos Trabalhadores
+0:55
+serviços especializados em engenharia de
+0:58
+segurança e medicina do trabalho 6
+1:01
+estabelece a obrigatoriedade das
+1:04
+empresas públicas e privadas organizarem
+1:06
+e manterem em funcionamento em 6 com a
+1:09
+finalidade de promover a saúde e
+1:10
+proteger a integridade dos Trabalhadores
+1:12
+no local de trabalho
+1:14
+nr5 comissão interna de prevenção de
+1:17
+acidentes
+1:19
+estabelece a obrigatoriedade das
+1:21
+empresas públicas e privadas organizarem
+1:23
+e manterem em funcionamento uma Cipa por
+1:25
+estabelecimento com o objetivo de
+1:27
+prevenir acidentes e doenças decorrentes
+1:30
+do trabalho de modo a tornar compatível
+1:32
+o trabalho com a preservação da vida e
+1:34
+da saúde dos Trabalhadores
+1:37
+nr6 equipamento de proteção individual
+1:44
+utilizado pelo trabalhador destinado à
+1:47
+proteção contra riscos capazes de
+1:49
+ameaçar a sua segurança e a sua saúde
+1:52
+estabelece as responsabilidades do
+1:54
+empregador e do empregado quanto à
+1:56
+aquisição fornecimento uso guarda
+1:59
+conservação higienização fiscalização e
+2:02
+certificação do Web
+2:04
+nr7 um programa de controle médico de
+2:07
+saúde ocupacional
+2:09
+estabelece a obrigatoriedade das
+2:11
+empresas
+2:14
+de Promoção e preservação da saúde dos
+2:17
+Trabalhadores
+2:18
+o Consul deve incluir a realização
+2:20
+obrigatória dos exames médicos
+2:22
+admissional periódico de retorno ao
+2:25
+trabalho de mudança de função e
+2:27
+demissional
+2:28
+nr8 verificações
+2:32
+estabelece os requisitos técnicos
+2:34
+mínimos que devem ser observados nas
+2:36
+edificações para garantir segurança e
+2:38
+conforto aos que nelas trabalham a norma
+2:41
+abrange aspectos como instalações
+2:43
+elétricas iluminação ventilação umidade
+2:46
+temperatura ruído vibrações radiações
+2:49
+etc
+2:53
+e controle das Exposições ocupacionais
+2:55
+agentes físicos químicos e biológicos
+2:59
+estabelece a obrigatoriedade das
+3:01
+empresas elaborarem um programa de
+3:04
+gerenciamento de riscos com objetivo de
+3:06
+preservar a saúde e a integridade dos
+3:08
+trabalhadores frente aos riscos
+3:10
+ocupacionais
+3:11
+o pgr deve incluir as etapas de
+3:14
+antecipação reconhecimento avaliação e
+3:17
+controle dos riscos ambientais
+3:19
+nr-10 e o segurança em instalações e
+3:22
+serviços em eletricidade
+3:24
+estabelece os requisitos mínimos para
+3:27
+implementação de medidas de controle e
+3:29
+sistemas preventivos que garantam a
+3:31
+segurança dos trabalhadores que direto
+3:32
+ou indiretamente
+3:35
+ou serviços com eletricidade a norma
+3:39
+abrange todas as fases de geração
+3:41
+transmissão distribuição e consumo de
+3:44
+energia elétrica
+3:45
+NR 11 e transporte movimentação
+3:48
+armazenagem e manuseio de materiais
+3:52
+estabelece os requisitos mínimos para
+3:54
+segurança dos trabalhadores nas
+3:56
+operações envolvendo transporte
+3:57
+movimentação armazenagem e manuseio de
+4:01
+materiais
+4:01
+a norma abrange aspectos como
+4:04
+equipamentos mecânicos utilizados no
+4:06
+transporte ou movimentação se
+4:08
+empilhadeiras guindastes Pontes rolantes
+4:10
+etc armazenamento de materiais distantes
+4:14
+prateleiras paletes etc manuseio manual
+4:18
+de cargas entre outros
+4:20
+nr12 insegurança no trabalho em máquinas
+4:23
+e equipamentos
+4:25
+estabelece os requisitos mínimos para
+4:27
+prevenção de acidentes e doenças do
+4:29
+trabalho nas fases de projeto fabricação
+4:32
+importação comercialização e utilização
+4:34
+de máquinas e equipamentos de todos os
+4:37
+tipos
+4:38
+a norma abrange aspectos como medidas de
+4:40
+proteção coletiva e individual
+4:42
+dispositivos de segurança sistemas de
+4:45
+comando sinalização manutenção inspeção
+4:48
+capacitação entre outros
+4:51
+NR 13 em Caldeiras vasos de pressão e
+4:54
+tubulações e tanques metálicos de
+4:56
+armazenamento
+4:58
+estabelece os requisitos mínimos para
+5:00
+gestão da integridade estrutural de
+5:02
+Caldeiras a vapor vasos de pressão e
+5:04
+suas tubulações de interligação nos
+5:06
+aspectos relacionados à instalação
+5:08
+inspeção operação e manutenção A Norma
+5:12
+também se aplica aos tanques metálicos
+5:14
+de armazenamento e suas tubulações de
+5:16
+interligação para líquidos inflamáveis e
+5:18
+combustíveis
+Aline Florner
+5:20
+NR 14 o fornos
+5:23
+estabelece os requisitos mínimos para
+5:25
+construção operação e manutenção de
+5:28
+fornos industriais destinados a fusão ou
+5:30
+refino de metais ou a queima ou
+5:32
+calcinação de substâncias minerais ou
+5:34
+orgânicas a norma abrange aspectos como
+5:37
+instalações elétricas ventilação
+5:39
+proteção contra incêndio equipamentos
+5:41
+auxiliares entre outros
+5:44
+NR 15 e da atividades e operações
+5:47
+insalubres
+5:48
+estabelece os critérios para
+5:50
+caracterização das atividades ou
+5:52
+operações insalubres que expõem os
+5:54
+trabalhadores agentes nocivos à saúde
+5:56
+acima dos limites de tolerância
+5:58
+estabelecidos pela legislação a norma
+6:01
+também define as situações que dão
+6:03
+direito ao adicional de insalubridade
+6:05
+aos Trabalhadores
+6:07
+NR 16
+6:09
+iratividades e operações perigosas
+6:12
+estabelece os critérios para
+6:13
+caracterização das atividades ou
+6:15
+operações perigosas Que expõe os
+6:17
+trabalhadores a riscos de explosão
+6:19
+incêndio ou roubo a norma também define
+6:22
+as situações que dão direito ao
+6:24
+adicional de periculosidade aos
+6:26
+trabalhadores
+6:27
+NR 17 ergonomia
+6:30
+estabelece os parâmetros que permitem a
+6:33
+adaptação das condições de trabalho as
+6:35
+características psicofisiológicas dos
+6:37
+trabalhadores visando proporcionar
+6:39
+conforto segurança e desempenho
+6:41
+eficiente a norma abrange aspectos como
+6:45
+mobiliário equipamentos postura
+6:47
+organização do trabalho pausas jornada
+6:51
+entre outros
+6:53
+NR 18 o segurança e saúde no trabalho na
+6:56
+indústria da construção
+6:58
+estabelece as diretrizes administrativas
+7:01
+de planejamento e organização para
+7:03
+implementação das medidas de controle e
+7:05
+sistemas preventivos na indústria da
+7:07
+construção civil a norma abrange
+7:10
+aspectos como programa de condições e
+7:12
+meio ambiente do trabalho na indústria
+7:13
+da construção
+7:15
+comunicação prévia da obra órgão
+7:17
+regional do Ministério do Trabalho e
+7:19
+Previdência
+7:21
+dos trabalhadores alojamento alimentação
+7:24
+sanitários proteção contra quedas em
+7:27
+alturas plataformas escadas movimentação
+7:31
+e transporte de materiais e pessoas e
+7:33
+elevadores
+7:38
+Carpintaria armaduras Estruturas
+7:41
+Metálicas operações de soldagem e corte
+7:44
+a quente instalações elétricas
+7:45
+equipamentos portáteis e ferramentas
+7:48
+proteção contra incêndio explosivos
+7:50
+ordem e limpeza sinalização de segurança
+7:53
+treinamento primeiros socorros entre
+7:56
+outros
+7:57
+NR 19 de explosivos
+8:00
+estabelece as medidas preventivas para o
+8:03
+controle dos riscos na fabricação
+8:05
+transporte armazenamento e manuseio de
+8:08
+explosivos e seus acessórios a norma
+8:11
+abrange aspectos como licenciamento das
+8:13
+atividades com explosivos junto ao órgão
+8:15
+competente qualificação e treinamento
+8:18
+dos trabalhadores instalações e
+8:20
+equipamentos adequados medidas de
+8:22
+segurança contra incêndio explosão e
+8:24
+roubo entre outros
+8:26
+nr20 insegurança e saúde no trabalho com
+8:29
+inflamáveis e combustíveis
+8:32
+estabelece os requisitos mínimos para a
+8:34
+gestão da segurança e saúde no trabalho
+8:36
+contra os fatores de risco de acidentes
+8:38
+provenientes das atividades de extração
+8:40
+produção armazenamento transferência
+8:43
+manuseio e manipulação de inflamáveis e
+8:46
+líquidos combustíveis
+8:48
+a norma abrange aspectos como
+8:50
+classificação das instalações análise de
+8:52
+riscos medidas de controle coletivo e
+8:55
+individual capacitação dos trabalhadores
+8:57
+plano de resposta emergências entre
+9:00
+outros
+Já se Inscreveu no Canal?
+9:01
+NR 21 um trabalhos a céu aberto
+9:04
+estabelece as medidas preventivas para
+9:07
+os trabalhos realizados a céu aberto
+9:09
+tais como construção de edifícios Pontes
+9:12
+barragens estradas aeroportos etc a
+9:16
+norma abrange aspectos como proteção
+9:18
+contra intempéries sol chuva vento
+9:21
+fornecimento de água potável e frescau
+9:24
+os trabalhadores instalações sanitárias
+9:26
+adequadas proteção contra animais
+9:28
+peçonhentos ou venenosos
+9:31
+NR 22 insegurança e saúde ocupacional na
+9:35
+mineração
+9:36
+estabelece os requisitos mínimos para a
+9:39
+proteção dos trabalhadores na atividade
+9:40
+de mineração em todas as suas fases a
+9:44
+norma abrange aspectos como organização
+9:46
+do trabalho na mineração os programa de
+9:48
+gerenciamento de riscos comissão interna
+9:51
+de prevenção de acidentes na mineração
+9:53
+cipamem serviços especializados em
+9:56
+engenharia de segurança em medicina do
+9:58
+trabalho na mineração sexto capacitação
+10:00
+dos trabalhadores treinamentos
+10:18
+subterrâneas sistema de iluminação que
+10:21
+Garanta visibilidade adequada transporte
+10:23
+de pessoas e materiais nas minas
+10:25
+subterrâneas e equipamentos e veículos
+10:27
+que garantam a segurança dos ocupantes
+10:29
+com explosivos acessórios na mineração
+10:32
+os procedimentos para o transporte
+10:34
+armazenamento e manuseio dos explosivos
+10:37
+e acessórios perfuração e desmonte de
+10:39
+rochas na mineração os procedimentos
+10:41
+para execução das
+10:43
+operações de perfuração e desmonte de
+10:46
+rochas escavação e carga na mineração os
+10:49
+procedimentos para execução das
+10:50
+operações de escavação e carga de
+10:52
+material transporte descarga na
+10:54
+mineração procedimentos para execução
+10:57
+das operações de transporte descarga de
+10:59
+material beneficiamento na mineração
+11:01
+procedimentos para execução das
+11:03
+operações de beneficiamento do material
+11:05
+manutenção inspeção testes ensaios na
+11:09
+mineração procedimentos para realização
+11:11
+das atividades de manutenção
+Links Especiais na Descrição
+11:15
+testes ensaios entre outros
+11:18
+NR 23 proteção contra incêndios
+11:22
+estabelece as medidas preventivas para
+11:24
+evitar ou combater incêndios nos locais
+11:27
+de trabalho a norma abrange aspectos
+11:29
+como saídas de emergência portas corta
+11:32
+fogo escadas corredores extintores tipos
+11:36
+localização sinalização e grandes
+11:39
+localização sinalização pressão brigada
+11:43
+de incêndio composição atribuições
+11:46
+treinamento alarme de incêndio sistema
+11:49
+sonoro e visual que alerte os ocupantes
+11:51
+do local plano de emergência contra
+11:53
+incêndio documento que estabelece as
+11:55
+ações a serem tomadas em caso de
+11:57
+incêndio entre outros
+11:59
+NR 24 condições sanitárias e de conforto
+12:03
+nos locais de trabalho
+12:05
+estabelece as condições mínimas de
+12:07
+higiene e conforto que devem ser
+12:09
+observadas nos locais de trabalho a
+12:12
+norma abrange aspectos como vestiários
+12:14
+de armários individuais bancos chuveiros
+12:17
+refeitórios de mesas cadeiras utensílios
+12:20
+cozinhas fogões geladeiras pias
+12:24
+alojamentos camas colchões roupas de
+12:27
+cama instalações sanitárias vasos
+12:29
+sanitários lavatórios papel higiênico
+12:32
+entre outros
+12:34
+NR 25 resíduos industriais
+12:38
+estabelece as medidas preventivas para o
+12:40
+controle dos riscos à saúde ao meio
+12:42
+ambiente decorrentes da geração
+12:44
+armazenamento transporte e destinação
+12:47
+final dos resíduos industriais
+12:49
+a norma abrange aspectos como
+12:51
+classificação dos resíduos industriais
+12:53
+perigosos ou não perigosos
+12:55
+acondicionamento dos resíduos
+12:57
+industriais recipientes adequados
+12:59
+identificação coleta e transporte dos
+13:02
+resíduos industriais veículos
+13:04
+apropriados rotas definidas tratamento e
+13:07
+disposição final dos resíduos
+13:09
+industriais reciclagem incineração
+13:11
+aterro sanitário entre outros
+13:14
+NR 26 e sinalização de segurança
+13:18
+estabelece as cores que devem ser usadas
+13:21
+nos locais de trabalho para prevenção de
+13:23
+acidentes identificando os equipamentos
+13:25
+de segurança delimitando áreas
+13:28
+identificando as canalizações empregadas
+13:30
+nas indústrias para a condução de
+13:32
+líquidos e gases e divertindo contra
+13:34
+riscos
+13:35
+a norma também define os símbolos
+13:37
+gráficos que devem ser usados na
+13:39
+sinalização de segurança para informar
+13:41
+ou alertar sobre situações específicas
+13:44
+NR 27 registro profissional do técnico
+13:47
+de segurança do trabalho no Ministério
+13:49
+do Trabalho e Previdência
+13:52
+revogada
+13:53
+NR 28 fiscalização e penalidades
+13:58
+estabelece os procedimentos para
+14:00
+fiscalização das normas regulamentadoras
+14:02
+relativas a segurança e medicina do
+14:04
+trabalho pelos auditores fiscais do
+14:06
+trabalho do Ministério do Trabalho e
+14:08
+Previdência a norma também define as
+14:11
+infrações e as penalidades aplicáveis
+14:13
+aos empregadores que descumprirem as
+14:15
+normas regulamentadoras
+14:17
+NR 29 insegurança e saúde no trabalho
+14:20
+portuário esta Norma define as medidas
+14:24
+de segurança que devem ser adotadas
+14:26
+pelas empresas que atuam no trabalho
+14:27
+portuário tanto em terra como em alto
+14:30
+mar
+14:31
+elaborda aspectos como organização do
+14:33
+trabalho equipamentos de proteção
+14:35
+sinalização emergências capacitação e
+14:39
+fiscalização
+14:40
+NR 30 insegurança e saúde no trabalho
+14:43
+com Aviário esta Norma estabelece as
+14:47
+medidas de segurança adotadas pelas
+14:48
+empresas que realizam atividades
+14:50
+aquaviárias ou seja embarcações
+14:53
+comerciais para o transporte de pessoas
+14:55
+ou mercadorias
+14:56
+ela trata de temas como condições
+14:59
+ambientais riscos biológicos químicos e
+15:02
+físicos equipamentos de salvatagem
+15:04
+primeiros socorros e treinamento
+15:07
+nr31 insegurança e saúde no trabalho na
+15:10
+agricultura pecuária silvicultura
+15:12
+exploração Florestal e aquicultura esta
+15:16
+Norma estabelece as regras relacionadas
+15:18
+à saúde e segurança das atividades e
+15:20
+operações ligadas à agricultura pecuária
+15:23
+silvicultura exploração Florestal e
+15:25
+aquicultura ela Visa prevenir acidentes
+15:29
+e doenças ocupacionais promover a
+15:31
+qualidade de vida dos trabalhadores
+15:33
+rurais e proteger o meio ambiente 5
+15:36
+NR 32 insegurança e saúde no trabalho em
+15:39
+serviços de saúde esta Norma estabelece
+15:43
+as diretrizes básicas para implementação
+15:45
+de medidas de proteção à segurança e a
+15:47
+saúde dos trabalhadores que atuam em
+15:49
+Serviços de Saúde como hospitais
+15:51
+clínicas Laboratórios farmácias e outros
+15:55
+ela aborda aspectos como riscos
+15:57
+biológicos químicos físicos ergonômicos
+16:00
+e psicossociais medidas de prevenção de
+16:03
+acidentes com material perfurocortante
+16:05
+equipamentos de proteção individual e
+16:07
+coletiva capacitação e vacinação
+16:10
+NR 33 insegurança e saúde nos trabalhos
+16:14
+em espaços confinados esta Norma
+16:17
+estabelece os requisitos para
+16:18
+caracterização dos espaços confinados os
+16:21
+critérios para o gerenciamento de riscos
+16:23
+ocupacionais em espaços confinados e as
+16:26
+medidas de prevenção de forma garantir a
+16:28
+segurança e a saúde dos trabalhadores
+16:30
+que interagem direto ou indiretamente
+16:32
+Com estes espaços ela considera espaço
+16:35
+confinado qualquer área ou ambiente que
+16:37
+não seja projetado para ocupação
+16:47
+NR 34 condições e meio ambiente de
+16:50
+trabalho na indústria da construção e
+16:52
+reparação naval esta Norma estabelece os
+16:55
+padrões mínimos para segurança e saúde
+16:57
+dos trabalhadores nas atividades da
+16:59
+indústria da construção e reparação
+17:01
+naval ela abrange temas como trabalho a
+17:05
+quente montagem e desmontagem de
+17:06
+andaimes trabalho em altura movimentação
+17:09
+de cargas inspeção de segurança
+17:11
+sinalização e comunicação
+17:14
+NR 35 o trabalho em altura esta Norma
+17:18
+estabelece os requisitos e as medidas de
+17:20
+prevenção para o trabalho em altura
+17:22
+envolvendo o planejamento a organização
+17:25
+e a execução de forma garantir a
+17:27
+segurança e a saúde dos trabalhadores
+17:29
+envolvidos direto ou indiretamente com
+17:31
+esta atividade
+17:33
+ela considera trabalho em altura
+17:35
+qualquer atividade com diferença de
+17:37
+nível acima de 2 metros do nível
+17:38
+inferior onde haja risco de queda
+17:41
+NR 36 insegurança e saúde no trabalho em
+17:45
+empresas de abate processamento de
+17:46
+carnes e derivados esta Norma estabelece
+17:50
+um padrão de qualidade para avaliação
+17:52
+controle monitoramento dos riscos
+17:54
+existentes nas atividades de abate
+17:56
+processamento de carnes e derivados ela
+17:59
+Visa garantir a segurança saúde e
+18:02
+qualidade de vida dos trabalhadores bem
+18:04
+como a prevenção de contaminação dos
+18:06
+produtos destinados ao consumo humano
+18:09
+ela aborda aspectos como organização do
+18:12
+trabalho ergonomia riscos biológicos
+18:14
+químicos e físicos equipamentos de
+18:17
+proteção capacitação e fiscalização
+18:20
+NR 37 insegurança e saúde em plataformas
+18:24
+de petróleo esta Norma estabelece as
+18:27
+medidas técnicas de segurança saúde e
+18:30
+conforto para as atividades em
+18:31
+plataformas de petróleo devendo ser
+18:33
+adotada em todas as plataformas em Águas
+18:36
+jurisdicionais brasileiras ela trata de
+18:39
+temas como gestão de riscos análise
+18:41
+preliminar de perigo permissão de
+18:43
+trabalho emergências trabalha em altura
+18:46
+espaço confinado movimentação de cargas
+18:49
+Equipamentos elétricos atmosferas
+18:51
+explosivas entre outros
+18:53
+NR 38 segurança e saúde no trabalho nas
+18:57
+atividades de limpeza urbana e manejo de
+19:00
+resíduos sólidos esta Norma estabelece
+19:02
+os requisitos e as medidas de prevenção
+19:04
+para garantir as condições de segurança
+19:06
+e saúde dos trabalhadores nas atividades
+19:08
+de limpeza urbana e manejo de resíduos
+19:10
+sólidos
+19:12
+ela foi atualizada pelo Ministério do
+19:14
+Trabalho e Previdência em dezembro de
+19:16
+2022 entrará em vigor em janeiro de 2024
+19:20
+ela se aplica diversas atividades
+19:22
+relacionadas a coleta transporte
+19:24
+transbordo varrição lavagem
+19:28
+poda manutenção raspagem pintura limpeza
+19:32
+desobstrução triagem e disposição final
+19:35
+de resíduos sólidos urbanos e de
+19:37
+serviços de saúde ela não se aplica ao
+19:41
+manejo de resíduos industriais de
+19:43
+saneamento
+19:48
+ela aborda aspectos como organização do
+19:52
+trabalho riscos ocupacionais
+19:53
+equipamentos de proteção capacitação e
+19:56
+fiscalização
+19:58
+não se esqueça também de curtir o vídeo
+20:00
+e se inscrever no nosso canal para
+20:02
+receber mais conteúdos informativos como
+20:04
+este
+20:05
+lembre-se da sua família te ama e te
+20:08
+espera não deixe que um erro no trabalho
+20:11
+te afaste deles
+20:13
+agradecemos a sua atenção e até o
+20:16
+próximo vídeo
