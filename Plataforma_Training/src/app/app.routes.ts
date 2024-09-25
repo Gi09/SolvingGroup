@@ -4,6 +4,8 @@ import { TreinamentosComponent } from './components/treinamentos/treinamentos.co
 import { ModulosComponent } from './components/modulos/modulos.component';
 import { LoginComponent } from './components/login/login.component';
 import { ConclusaoComponent } from './components/conclusao/conclusao.component';
+import { PrimeiroFormComponent } from './components/primeiro-form/primeiro-form.component';
+import { SegundoFormComponent } from './components/segundo-form/segundo-form.component';
 
 export const routes: Routes = [
     { path: '', component: LoginComponent },
@@ -13,5 +15,7 @@ export const routes: Routes = [
     {path: 'modulos', component: ModulosComponent},
     {path: 'login', component: LoginComponent},
     {path: 'conclusao-curso', component: ConclusaoComponent },
+    {path: 'primeiro-form', component:PrimeiroFormComponent},
+    {path: 'segundo-form', component:SegundoFormComponent},
     {path: '**', component: HomeComponent}
 ];

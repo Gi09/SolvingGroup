@@ -1,0 +1,35 @@
+<form [formGroup]="modulosForm" (ngSubmit)="onSubmit()">
+    <div formArrayName="modulos">
+      <div *ngFor="let modulo of modulos.controls; let i = index" [formGroupName]="i">
+        <h3>Módulo {{ i + 1 }}</h3>
+  
+        <div>
+          <label for="titulo">Título:</label>
+          <input id="titulo" formControlName="titulo">
+          <div *ngIf="modulo.get('titulo')?.invalid && modulo.get('titulo')?.touched">
+            O título é obrigatório.
+          </div>
+        </div>
+  
+        <div>
+          <label for="descricao">Descrição:</label>
+          <textarea id="descricao" formControlName="descricao"></textarea>
+        </div>
+  
+        <div>
+          <label for="video">Vídeo (URL):</label>
+          <input id="video" formControlName="video">
+        </div>
+  
+        <div>
+          <label for="imagens">Imagens (URLs separadas por vírgula):</label>
+          <input id="imagens" formControlName="imagens">
+        </div>
+  
+        <hr>
+      </div>
+    </div>
+  
+    <button type="submit">Finalizar</button>
+  </form>
+  

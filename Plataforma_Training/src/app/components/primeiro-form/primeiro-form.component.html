@@ -1,0 +1,42 @@
+<form [formGroup]="treinamentoForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="nome">Nome do Treinamento:</label>
+      <input id="nome" formControlName="nome">
+      <div *ngIf="treinamentoForm.get('nome')?.invalid && treinamentoForm.get('nome')?.touched">
+        Nome do treinamento é obrigatório.
+      </div>
+    </div>
+  
+    <div>
+      <label for="preRequisitos">Pré-requisitos:</label>
+      <input id="preRequisitos" formControlName="preRequisitos">
+    </div>
+  
+    <div>
+      <label for="cargaHoraria">Carga horária:</label>
+      <input id="cargaHoraria" type="number" formControlName="cargaHoraria">
+    </div>
+  
+    <div>
+      <label>Emissão de Certificado:</label>
+      <input type="checkbox" formControlName="emissaoCertificado">
+    </div>
+  
+    <div>
+      <label for="publicoAlvo">Público-alvo:</label>
+      <input id="publicoAlvo" formControlName="publicoAlvo">
+    </div>
+  
+    <div>
+      <label>Obrigatoriedade:</label>
+      <input type="checkbox" formControlName="obrigatoriedade">
+    </div>
+  
+    <div>
+      <label for="quantidadeModulos">Quantidade de Módulos:</label>
+      <input id="quantidadeModulos" type="number" formControlName="quantidadeModulos">
+    </div>
+  
+    <button type="submit">Avançar</button>
+  </form>
+  
