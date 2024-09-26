@@ -1,20 +1,20 @@
-import { Component, OnInit, PipeTransform } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Treinamentos } from '../../interfaces/treinamentos';
 import { CommonModule } from '@angular/common';
 import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { TreinamentosService } from '../../services/treinamentos.service';
-import { Location } from '@angular/common';
 import { Modulos } from '../../interfaces/modulos';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { HttpClient } from '@angular/common/http';
+import { NavbarComponent } from "../navbar/navbar.component";
 
 @Component({
   selector: 'app-modulos',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule, RouterModule],
+  imports: [CommonModule, ReactiveFormsModule, RouterModule, NavbarComponent],
   templateUrl: './modulos.component.html',
-  styleUrl: './modulos.component.css'
+  styleUrls: ['./modulos.component.css'], // Corrigido para styleUrls
 })
 export class ModulosComponent implements OnInit {
   treinamentoSelecionado?: Treinamentos;
@@ -22,7 +22,7 @@ export class ModulosComponent implements OnInit {
   moduloForm: FormGroup;
   moduloAtual = 0;
   videoUrl?: SafeResourceUrl;
-  
+
   constructor(
     private route: ActivatedRoute,
     private treinamentoService: TreinamentosService,
@@ -42,18 +42,18 @@ export class ModulosComponent implements OnInit {
       obrigatorio: [false],
     });
   }
-  
+
   ngOnInit(): void {
     this.getTreinamentoEModuloById();
   }
-  
+
   getTreinamentoEModuloById(): void {
     const treinamentoId = this.route.snapshot.paramMap.get('id') ?? '';
     const moduloId = this.route.snapshot.queryParamMap.get('moduloId');
-  
+
     this.treinamentoService.getById(treinamentoId).subscribe(treinamentoResponse => {
       this.treinamentoSelecionado = treinamentoResponse;
-  
+
       if (moduloId) {
         const index = this.treinamentoSelecionado.modulos.findIndex(modulo => modulo.moduloId === moduloId);
         if (index !== -1) {
@@ -62,7 +62,7 @@ export class ModulosComponent implements OnInit {
       } else {
         this.selecionarModulo(0); // Seleciona o primeiro módulo por padrão
       }
-  
+
       if (this.moduloSelecionado) {
         this.moduloForm.patchValue({
           titulo: this.moduloSelecionado.titulo,
@@ -74,7 +74,7 @@ export class ModulosComponent implements OnInit {
           publico: this.moduloSelecionado.publico,
           obrigatorio: this.moduloSelecionado.obrigatorio,
         });
-  
+
         // Verifica se há uma URL de vídeo e sanitiza a URL do vídeo
         if (this.moduloSelecionado.video) {
           this.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.getYouTubeEmbedUrl(this.moduloSelecionado.video));
@@ -82,12 +82,12 @@ export class ModulosComponent implements OnInit {
           this.videoUrl = undefined; // Limpa a URL do vídeo se não houver
         }
       }
-  
+
     }, error => {
       console.error('Erro ao buscar o módulo:', error);
     });
   }
-  
+
   selecionarModulo(index: number): void {
     this.moduloAtual = index;
     this.moduloSelecionado = this.treinamentoSelecionado?.modulos[index];
@@ -96,7 +96,7 @@ export class ModulosComponent implements OnInit {
       queryParams: { moduloId: this.moduloSelecionado?.moduloId },
       queryParamsHandling: 'merge',
     });
-  
+
     // Atualiza a URL do vídeo ao selecionar um novo módulo
     if (this.moduloSelecionado && this.moduloSelecionado.video) {
       this.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.getYouTubeEmbedUrl(this.moduloSelecionado.video));
@@ -105,10 +105,10 @@ export class ModulosComponent implements OnInit {
     }
   }
 
-    // Captura dos logs
-  registrarClicks(botaoId: string, acao: Function){
-      // Enviar o evento de clique para o backend
-      this.http.post('http://localhost:3000/click', { buttonId: botaoId })
+  // Captura dos logs
+  registrarClicks(botaoId: string, acao: Function) {
+    // Enviar o evento de clique para o backend
+    this.http.post('http://localhost:3000/click', { buttonId: botaoId })
       .subscribe({
         next: (response) => console.log('Clique registrado:', response),
         error: (err) => console.error('Erro ao registrar clique:', err)
@@ -116,7 +116,7 @@ export class ModulosComponent implements OnInit {
 
     // Executa a ação original (ex: voltarPagina, proximoModulo, etc)
     acao();
-}
+  }
 
   // Pula para o próximo módulo
   proximoModulo(): void {
@@ -131,8 +131,8 @@ export class ModulosComponent implements OnInit {
       }
     }
   }
-  
-  // Volta ao modulo anterior 
+
+  // Volta ao módulo anterior
   voltarModulo(): void {
     // Verifica se o treinamento está definido e se o módulo atual não é o primeiro
     if (this.treinamentoSelecionado && this.moduloAtual > 0) {
@@ -153,7 +153,7 @@ export class ModulosComponent implements OnInit {
     }
     return false;
   }
-  
+
   // Conclusão do curso
   concluirCurso(): void {
     this.registrarClicks('concluirCurso', () => {
@@ -162,16 +162,15 @@ export class ModulosComponent implements OnInit {
       console.log('Curso Concluído');
     });
   }
-  
+
   // Volta para o início
   voltarPagina(): void {
     this.router.navigate(['..'], { relativeTo: this.route });
   }
-  
+
   private getYouTubeEmbedUrl(videoUrl: string): string {
     // Extrair o ID do vídeo da URL
     const videoId = videoUrl.split('v=')[1]?.split('&')[0];
     return `https://www.youtube.com/embed/${videoId}`;
   }
-
 }

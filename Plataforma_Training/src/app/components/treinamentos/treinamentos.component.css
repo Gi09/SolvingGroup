@@ -1,9 +1,17 @@
+/* rgb(255, 242, 0) */
+
 body {
-    font-family: Arial, sans-serif;
+          font-family: "Raleway", sans-serif;    
 }
 
+.custom-navbar {
+    margin-top: 20px;  /* Margem superior de 20px */
+    margin-left: 20px; /* Margem esquerda de 20px */
+    margin-right: 20px; /* Margem direita de 20px */
+}
+
+
 header {
-    background-color: rgb(0, 72, 142);; /* Azul escuro */
     color: white;
     padding: 10px 20px;
 }
@@ -20,19 +28,18 @@ header {
 main {
     height: 100vh; /* Faz o main ocupar toda a altura da tela */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: center; /* Centraliza verticalmente os elementos */
+    color:  #002c4e;;
 }
 
-.bg-primary {
-    background-color: rgb(0, 72, 142) !important; /* Azul escuro */
+.row {
+    width: 100%; /* Garante que a linha use toda a largura */
 }
 
-.bg-warning {
-    background-color: #ffc107 !important; /* Amarelo */
-    border-radius: 30px;
-    
+.descricao{
+    color: #002c4e;
 }
+
 
 .text-dark {
     color: #343a40 !important; /* Cinza escuro */
@@ -40,16 +47,17 @@ main {
 
 p {
     margin: 10px 0;
+    color: white;
 }
 
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 h2 {
     font-size: 2rem;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 p {
@@ -73,7 +81,7 @@ img {
 }
 
 .row {
-    margin: 0;
+    height: 800px;
 }
 
 .col-12 {
@@ -81,14 +89,35 @@ img {
 }
 
 .col-md-8 {
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .col-md-4 {
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center;     /* Centraliza horizontalmente */
+    margin: auto;           
+    height: auto;            /* Permite que a altura se ajuste ao conteúdo */
+}
+
+.btn{
+    background-color: #002c4e;
+    color: white;
+    width: 100px;
+}
+
+.btn-iniciar{
+    background-color: rgb(255, 242, 0);
+    color: #002c4e;
+    border: 3px solid #002c4e;
+    width: 80px;
 }
 
 .text-center {
@@ -101,4 +130,11 @@ img {
 
 .text-right {
     text-align: right;
+}
+
+.container-infos {
+    background-color: #002c4e;
+    color: white;
+    min-width: 150px;
+    /* Ajustes adicionais se necessário */
 }

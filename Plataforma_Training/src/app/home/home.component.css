@@ -1,21 +1,29 @@
 /* Reset básico */
-body, html, div, h1, h2, p, img, ul, li, a {
+body, html, div, h1, p, img, ul, li, a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+      font-family: "Raleway", sans-serif;   
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(0, 72, 142);
+    background-color: #002c4e;
+    /* background-color: rgb(0, 72, 142); */
     background-size: cover;       
     background-repeat: no-repeat; 
     background-position: center;  
-    height: 100%;               
+    height: 150%;               
     margin: 0;  
-    padding: 20px;
+
+}
+
+h2{
+    color: white;
+    font-size: 1.5em;
+    padding-top: 30px;
 }
 
 /* Container principal */
@@ -25,7 +33,7 @@ body {
 }
 
 /* Cabeçalho */
-.header {
+/* .header {
     text-align: center;
     padding: 20px 0;
     background-color: #0082CB;
@@ -33,11 +41,16 @@ body {
     border-radius: 10px;
     margin: 10px;
     width: 100%;
-}
+} */
 
 .header h1 {
     font-size: 2em;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 /* Seção Todos os Cursos */
@@ -56,16 +69,18 @@ body {
 }
 
 .curso-card {
-    width: 250px;          
-    border-radius: 20px;   
-    overflow: hidden;      
+    width: 260px;    
+    height: 200px;      
+    border-radius: 10px;      
     display: flex;
     flex-direction: column; 
     align-items: center;    
     justify-content: flex-start; 
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.1s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.419); 
     background-color: #fff; 
+    position: relative; /* Permite que os filhos usem posição absoluta em relação a este contêiner */
+    overflow: hidden; 
 }
 
 .curso-card:hover {
@@ -74,24 +89,33 @@ body {
 }
 
 .curso-card img {
-    width: 100%;             
+    width: 105%;  
     height: auto;            
     aspect-ratio: 4 / 3;     
     object-fit: cover;       
-    border-radius: 20px 20px 0 0;
-    display: block;          /* Remove o gap em cima */
+    /* border-radius: 20px 20px 0 0; */
+    display: block;  
+        /* Remove o gap em cima */
 }
 
+.curso-card-image {
+    position: relative;
+    width: 110%; /* Necessário para que o h5 seja posicionado corretamente */
+}
 
 .card-body {
-    text-align: center;     
-    padding: 10px;          
+    text-align: center;           
     background-color: #fff; 
     width: 100%;            /* Garante que a largura do card-body é igual à do curso-card */
 }
 
 .card-title {
-    font-size: 1.2em;       
-    color: #333;            
-    margin: 4;              /* Remove margens extras */
+    font-size: 13px;
+    width: 260px;
+    position: absolute; /* Posiciona o título sobre a imagem */
+    top: 0px;/* Distância da esquerda da imagem */
+    color: #002c4e; /* Cor do texto */ /* Fundo semi-transparente para melhor legibilidade */
+    padding: 10px; 
+    background-color: rgb(255, 242, 0);
+      font-family: "Raleway", sans-serif;    /* Bordas arredondadas *//* Remove margens extras */
 }

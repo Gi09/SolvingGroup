@@ -6,11 +6,12 @@ import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { Location } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
+import { NavbarComponent } from "../navbar/navbar.component";
 
 @Component({
   selector: 'app-treinamentos',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule, RouterModule],
+  imports: [CommonModule, ReactiveFormsModule, RouterModule, NavbarComponent],
   templateUrl: './treinamentos.component.html',
   styleUrl: './treinamentos.component.css'
 })
