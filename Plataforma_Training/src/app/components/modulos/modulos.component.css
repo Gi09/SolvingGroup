@@ -1,27 +1,45 @@
 .container-fluid {
-    padding: 20px;
+    /* padding: 20px; */
+    background-color: #002c4e;
+    font-family: "Raleway", sans-serif;   
   }
   
   .left-panel {
     background-color: #f8f9fa;
     padding: 20px;
-    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    height: 800px;
   }
   
   .right-panel {
-    background-color: #ffffff;
+    background-color: #002c4e;
+    color: white;
     padding: 20px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    display: flex;                   /* Ativa o Flexbox */
+    flex-direction: column;         /* Alinha os itens em coluna */
+    align-items: center;            /* Centraliza os itens horizontalmente */
+    justify-content: center;        /* Centraliza os itens verticalmente, se necessário */
+    text-align: center;             /* Centraliza o texto */
+    height: 100%;     
   }
   
   h3 {
     font-size: 1.5rem;
     color: #004085;
     margin-bottom: 20px;
+  }
+
+  h1{
+    margin: 10px;
+  }
+
+  p{
+    margin: 10px;
+    /* width: 750px; */
   }
   
   .list-group-item {
@@ -45,11 +63,28 @@
   
   .img-fluid {
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+
+  }
+
+  .container-imagem{
+    width: 750px;
+  }
+
+  .container-video{
+    width: 750px;
+    margin-top: 10px;
   }
   
   .btn {
     font-weight: bold;
+  }
+
+  .btn-inicio{
+        background-color: rgb(255, 242, 0);
+    color: #002c4e;
+    border: 3px solid #002c4e;
+    width: 80px;
   }
   
   .btn-danger {
@@ -57,12 +92,22 @@
     border-color: #dc3545;
   }
   
-  .btn-warning {
-    background-color: #ffc107;
-    border-color: #ffc107;
-    color: #000;
+  .btn-prox {
+       background-color: #002c4e;
+    color: white;
+    width: 100px;
   }
   
+.btn-concluir{
+  background-color: rgb(255, 242, 0);
+  width: 600px;
+}
+
+.btn-concluir:hover{
+  background-color: rgb(255, 247, 96);
+  color: #002c4e;
+}
+
   .shadow {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
