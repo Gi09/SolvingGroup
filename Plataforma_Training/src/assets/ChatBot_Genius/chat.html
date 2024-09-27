@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat da Plataforma de Cursos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Ícone flutuante do chat -->
+    <div id="chat-icon" onclick="toggleChat()">
+        <img src="images/icone_chat.jpeg" alt="Chat Icon">
+    </div>
+
+    <!-- Container do chat (inicialmente oculto) -->
+    <div id="chat-container">
+        <div id="chat-box"></div>
+        <div id="user-input">
+            <input type="text" id="message-input" placeholder="Digite sua mensagem...">
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+      
+</body>
+</html>
