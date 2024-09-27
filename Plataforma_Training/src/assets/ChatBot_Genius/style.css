@@ -1,0 +1,143 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Estilo do ícone flutuante */
+#chat-icon {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: transform 0.3s ease;
+}
+
+#chat-icon:hover {
+    transform: scale(1.1);
+}
+
+#chat-icon img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+}
+
+/* Estilo do container do chat */
+#chat-container {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 400px;
+    max-width: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 9;
+}
+
+/* Mostrar o chat quando estiver ativo */
+#chat-container.show {
+    display: flex;
+    opacity: 1;
+}
+
+#chat-box {
+    padding: 15px;
+    height: 300px;
+    overflow-y: auto;
+    flex-grow: 1;
+    background-color: #f9f9f9;
+}
+
+#user-input {
+    display: flex;
+    border-top: 1px solid #eee;
+}
+
+#user-input input {
+    flex-grow: 1;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 0 0 0 15px;
+    outline: none;
+}
+
+#user-input button {
+    padding: 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 0 15px 0;
+    transition: background-color 0.3s ease;
+}
+
+#user-input button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 15px;
+    max-width: 80%;
+    word-wrap: break-word;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.user-message {
+    background-color: #007BFF;
+    color: white;
+    text-align: right;
+    align-self: flex-end;
+}
+
+.chatbot-message {
+    background-color: #FFCC00;
+    color: black;
+    text-align: left;
+    align-self: flex-start;
+}
+
+/* Estilo para barras de rolagem */
+#chat-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chat-box::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+#chat-box::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+#chat-box::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.speak-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #007BFF;
+    margin-left: 10px;
+}
