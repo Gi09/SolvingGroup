@@ -3,19 +3,25 @@ import { FormArray, FormBuilder, FormGroup, ReactiveFormsModule, Validators } fr
 import { FormDataService } from '../../services/form-data.service';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { NavbarComponent } from "../navbar/navbar.component";
 
 @Component({
   selector: 'app-segundo-form',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule, NavbarComponent],
   templateUrl: './segundo-form.component.html',
-  styleUrl: './segundo-form.component.css'
+  styleUrls: ['./segundo-form.component.css']
 })
-export class SegundoFormComponent implements OnInit{
+export class SegundoFormComponent implements OnInit {
   modulosForm!: FormGroup;
   quantidadeModulos!: number;
+  isExpanded: boolean[] = []; // Array para controlar a expansão dos módulos
 
-  constructor(private fb: FormBuilder, private formDataService: FormDataService, private router: Router) { }
+  constructor(
+    private fb: FormBuilder,
+    private formDataService: FormDataService,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {
     // Obter os dados da primeira página
@@ -36,6 +42,8 @@ export class SegundoFormComponent implements OnInit{
 
     for (let i = 0; i < this.quantidadeModulos; i++) {
       this.addModulo();
+      // Deixa o primeiro dropdown aberto
+      this.isExpanded.push(i === 0); // O primeiro módulo é inicialmente expandido
     }
   }
 
@@ -52,10 +60,16 @@ export class SegundoFormComponent implements OnInit{
     }));
   }
 
+  toggleModule(index: number) {
+    this.isExpanded[index] = !this.isExpanded[index]; // Alterna o estado de expansão
+  }
+
   onSubmit() {
     if (this.modulosForm.valid) {
       console.log('Módulos cadastrados:', this.modulosForm.value);
       // Você pode salvar os dados ou enviar para um servidor aqui
     }
   }
+
+  
 }

@@ -15,9 +15,11 @@ body {
 }
 
 h1 {
-    color: #4caf50;
-    font-size: 3em;
+    color: #002c4e;
+    font-size: 27px;
     margin-top: 20px;
+    margin-left: 30px;
+    font-family: "Raleway", sans-serif; 
 }
 
 p {

@@ -3,12 +3,14 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { Router } from '@angular/router';
 import { FormDataService } from '../../services/form-data.service'; 
 import { CommonModule } from '@angular/common';
+import { SegundoFormComponent } from "../segundo-form/segundo-form.component";
+import { NavbarComponent } from "../navbar/navbar.component";
 
 
 @Component({
   selector: 'app-primeiro-form',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule, SegundoFormComponent, NavbarComponent],
   templateUrl: './primeiro-form.component.html',
   styleUrl: './primeiro-form.component.css'
 })

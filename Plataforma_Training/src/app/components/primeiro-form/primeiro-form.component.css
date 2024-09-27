@@ -1,0 +1,99 @@
+
+/* Container principal */
+.container-main {
+    display: flex;
+    justify-content: space-evenly; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+ /* Define a altura do container como 100% da altura da viewport */
+    background-color: #f0f0f0; /* Cor de fundo leve para a página */
+    padding-top: 100px;
+    padding: 50px; 
+    font-family: "Raleway", sans-serif; 
+    /* Adiciona espaçamento para evitar que o conteúdo encoste nas bordas */
+}
+
+/* Formulário */
+form {
+    width: 40%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    background-color: #002c4e; /* Fundo branco para destacar o formulário */
+    padding: 30px; /* Adiciona espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; /* Bordas arredondadas */
+    border: 5px solid #002c4e;
+    color: white;
+}
+
+app-navbar{
+    margin-bottom: 30px;
+}
+
+/* Grupo de elementos do formulário */
+.form-group {
+    display: flex;
+    flex-direction: column; /* Organiza label e input verticalmente */
+    margin-bottom: 15px; /* Espaço entre os elementos */
+}
+
+label {
+    margin-bottom: 5px; /* Espaço entre o label e o input */
+ /* Negrito para os labels */
+}
+
+input {
+    width: 100%; /* O input ocupa toda a largura disponível */
+    padding: 8px; /* Espaçamento interno do input */
+    margin-bottom: 5px; /* Espaço abaixo do input */
+    border: 1px solid #ccc; /* Borda do input */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+/* Grupo de radio buttons e checkboxes */
+.radio-group {
+    display: flex; /* Exibe os elementos em linha */
+    gap: 20px; /* Espaçamento entre os labels */
+    align-items: center; /* Alinha verticalmente os itens */
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o texto com o input */
+    gap: 5px; /* Espaço entre o input e o texto */
+    margin: 0; /* Remove margens extras */
+}
+
+/* Botões */
+button {
+    padding: 12px 20px; /* Espaçamento interno do botão */
+    background-color: #002c4e; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Aponta o cursor para o botão */
+    margin-top: 20px; /* Espaçamento entre o último input e o botão */
+    width: 100%; /* O botão ocupa toda a largura do formulário */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+button:hover {
+    background-color: #002c4ed4; /* Cor do botão ao passar o mouse */
+}
+
+/* Mensagem de erro */
+.error-message {
+    color: red;
+    font-size: 0.875rem; /* Tamanho da fonte menor para a mensagem de erro */
+    margin-top: 5px; /* Espaço acima da mensagem */
+}
+
+.btn-avancar{
+    background-color: rgb(255, 242, 0);
+    color: #002c4e;
+}
+.btn-avancar:hover{
+    background-color: rgba(255, 242, 0, 0.818);
+    color: #002c4e;
+}

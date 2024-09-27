@@ -1,10 +1,11 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { LogService } from '../../services/log.service';
+import { NavbarComponent } from "../navbar/navbar.component";
 
 @Component({
   selector: 'app-conclusao',
   standalone: true,
-  imports: [],
+  imports: [NavbarComponent],
   templateUrl: './conclusao.component.html',
   styleUrls: ['./conclusao.component.css'], // Corrigido para styleUrls
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
