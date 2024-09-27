@@ -6,6 +6,7 @@ import { LoginComponent } from './components/login/login.component';
 import { ConclusaoComponent } from './components/conclusao/conclusao.component';
 import { PrimeiroFormComponent } from './components/primeiro-form/primeiro-form.component';
 import { SegundoFormComponent } from './components/segundo-form/segundo-form.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 export const routes: Routes = [
     { path: '', component: LoginComponent },
@@ -17,5 +18,6 @@ export const routes: Routes = [
     {path: 'conclusao-curso', component: ConclusaoComponent },
     {path: 'primeiro-form', component:PrimeiroFormComponent},
     {path: 'segundo-form', component:SegundoFormComponent},
+    {path: 'app-dashboard', component:DashboardComponent},
     {path: '**', component: HomeComponent}
 ];

@@ -22,22 +22,12 @@
     <app-navbar></app-navbar>
     <div class="header">
       <h1 class>
-        Bem-vindo(a) à Plataforma de Treinamentos Eurofarma,
+        Bem-vindo(a) ao Train!ng,
         {{ usuario?.nome }}!
       </h1>
     </div>
 
     <!-- Exibe o dashboard apenas para administradores -->
-    <iframe
-      *ngIf="isAdmin"
-      title="Análise de Desempenho - Log dos Treinamentos"
-      width="100%"
-      height="600"
-      src="https://app.powerbi.com/view?r=eyJrIjoiODU2M2JmYzctMDk2Yi00ODA3LWI2NjktZTcxNGFkMGVkYmE2IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9"
-      frameborder="0"
-      allowFullScreen="true"
-    >
-    </iframe>
 
     <div class="container">
       <div class="meus-cursos">

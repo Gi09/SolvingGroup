@@ -1,42 +1,106 @@
-<form [formGroup]="treinamentoForm" (ngSubmit)="onSubmit()">
-    <div>
-      <label for="nome">Nome do Treinamento:</label>
-      <input id="nome" formControlName="nome">
-      <div *ngIf="treinamentoForm.get('nome')?.invalid && treinamentoForm.get('nome')?.touched">
-        Nome do treinamento é obrigatório.
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Formulário de Treinamento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <app-navbar></app-navbar>
+    <div class="container-main">
+      <h1>Cadastre um novo treinamento!</h1>
+      <form [formGroup]="treinamentoForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="nome">Nome do Treinamento</label>
+          <input id="nome" formControlName="nome" />
+          <div
+            *ngIf="
+              treinamentoForm.get('nome')?.invalid &&
+              treinamentoForm.get('nome')?.touched
+            "
+            class="error-message"
+          >
+            Nome do treinamento é obrigatório.
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="preRequisitos">Pré-requisitos</label>
+          <input id="preRequisitos" formControlName="preRequisitos" />
+        </div>
+
+        <div class="form-group">
+          <label for="cargaHoraria">Carga horária</label>
+          <input
+            id="cargaHoraria"
+            type="number"
+            formControlName="cargaHoraria"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="emitirCertificado">Emitir Certificado?</label>
+          <div class="radio-group">
+            <label>
+              <input
+                type="radio"
+                formControlName="emitirCertificado"
+                value="sim"
+              />
+              Sim
+            </label>
+            <label>
+              <input
+                type="radio"
+                formControlName="emitirCertificado"
+                value="nao"
+              />
+              Não
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="publicoAlvo">Público-alvo</label>
+          <input id="publicoAlvo" formControlName="publicoAlvo" />
+        </div>
+
+        <div class="form-group">
+          <label>Obrigatório?</label>
+          <div class="radio-group">
+            <label>
+              <input type="checkbox" formControlName="obrigatoriedade" />
+              Sim
+            </label>
+            <label>
+              <input type="checkbox" formControlName="obrigatoriedade" />
+              Não
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="quantidadeModulos">Quantidade de Módulos</label>
+          <input
+            id="quantidadeModulos"
+            type="number"
+            formControlName="quantidadeModulos"
+          />
+        </div>
+        <button class="btn-avancar" type="submit">
+          <strong>Avançar</strong>
+        </button>
+      </form>
     </div>
-  
-    <div>
-      <label for="preRequisitos">Pré-requisitos:</label>
-      <input id="preRequisitos" formControlName="preRequisitos">
-    </div>
-  
-    <div>
-      <label for="cargaHoraria">Carga horária:</label>
-      <input id="cargaHoraria" type="number" formControlName="cargaHoraria">
-    </div>
-  
-    <div>
-      <label>Emissão de Certificado:</label>
-      <input type="checkbox" formControlName="emissaoCertificado">
-    </div>
-  
-    <div>
-      <label for="publicoAlvo">Público-alvo:</label>
-      <input id="publicoAlvo" formControlName="publicoAlvo">
-    </div>
-  
-    <div>
-      <label>Obrigatoriedade:</label>
-      <input type="checkbox" formControlName="obrigatoriedade">
-    </div>
-  
-    <div>
-      <label for="quantidadeModulos">Quantidade de Módulos:</label>
-      <input id="quantidadeModulos" type="number" formControlName="quantidadeModulos">
-    </div>
-  
-    <button type="submit">Avançar</button>
-  </form>
-  
+  </body>
+</html>

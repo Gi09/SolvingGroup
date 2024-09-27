@@ -1,0 +1,129 @@
+/* Container principal */
+.container-main {
+    padding-top: 40px;
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em uma coluna */
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: flex-start; /* Centraliza o conteúdo verticalmente */
+  min-height: 100vh; /* Define a altura do container como 100% da altura da viewport */
+  background-color: #f0f0f0; /* Cor de fundo leve para a página  /* Adiciona espaçamento para evitar que o conteúdo encoste nas bordas */
+    /* margin-top: 20px; */
+        font-family: "Raleway", sans-serif; 
+}
+
+/* Formulário */
+form {
+  width: 100%;
+  max-width: 700px;
+  background-color: #002c4e;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 0 auto; /* Centraliza o formulário horizontalmente */
+}
+
+
+/* Grupo de módulos */
+.module-group {
+  width: 100%; /* Ocupa toda a largura do formulário */
+}
+
+/* Módulo individual */
+.module {
+  margin-bottom: 10px; /* Espaçamento entre os módulos */
+}
+
+/* Cabeçalho do módulo */
+.module-header {
+  display: flex;
+  justify-content: space-between; /* Espaço entre o título e o ícone */
+  align-items: center; /* Alinha verticalmente */
+  padding: 10px; /* Adiciona espaçamento ao cabeçalho */
+  background-color: #002c4e; /* Cor de fundo do cabeçalho */
+  color: white; /* Cor do texto */
+  cursor: pointer; /* Cursor de clique */
+  border-radius: 4px; /* Bordas arredondadas */
+}
+
+/* Conteúdo do módulo */
+.module-content {
+  padding: 20px; /* Espaçamento interno */
+  background-color: white; /* Fundo do conteúdo */
+  border: 1px solid #ddd; /* Borda ao redor do conteúdo */
+  border-top: none; /* Remove a borda superior */
+  border-radius: 0 0 4px 4px;
+  overflow: visible; /* Bordas arredondadas na parte inferior */
+}
+
+/* Título de cada módulo */
+.module h3 {
+  margin: 0; /* Remove margens */
+  font-size: 1.1rem; /* Tamanho do texto */
+}
+
+/* Grupo de elementos do formulário */
+.form-group {
+  display: flex;
+  flex-direction: column; /* Organiza label e input/textarea verticalmente */
+  margin-bottom: 15px; /* Espaço entre os elementos */
+}
+
+label {
+  margin-bottom: 5px; /* Espaço entre o label e o input */
+  font-weight: bold; /* Negrito para os labels */
+}
+
+input,
+textarea {
+  width: 100%; /* O input e textarea ocupam toda a largura disponível */
+  padding: 8px; /* Espaçamento interno */
+  border: 1px solid #ccc; /* Borda */
+  border-radius: 4px; /* Bordas arredondadas */
+  box-sizing: border-box; /* Inclui padding e borda na largura total */
+  margin-bottom: 5px; /* Espaço abaixo do input/textarea */
+}
+
+textarea {
+  resize: vertical; /* Permite redimensionar verticalmente */
+  height: 500px; /* Altura inicial */
+}
+
+/* Linha divisória */
+hr {
+  margin: 10px 0; /* Espaçamento vertical */
+  border: 0; /* Remove a borda padrão */
+  border-top: 1px solid #ddd; /* Borda superior */
+}
+
+/* Botões */
+button {
+  padding: 12px 20px; /* Espaçamento interno do botão */
+  background-color: #002c4e; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border: none; /* Remove a borda */
+  border-radius: 4px; /* Bordas arredondadas */
+  cursor: pointer; /* Aponta o cursor para o botão */
+  width: 100%; /* O botão ocupa toda a largura do formulário */
+  text-align: center; /* Centraliza o texto dentro do botão */
+  font-size: 1rem; /* Tamanho da fonte */
+}
+
+button:hover {
+  background-color: #002c4e; /* Cor do botão ao passar o mouse */
+}
+
+.btn-finalizar{
+    color: #002c4e;
+    background-color: rgb(255, 242, 0);
+}
+.btn-finalizar:hover{
+    color: #002c4e;
+    background-color: rgba(255, 242, 0, 0.859);
+}
+
+/* Mensagem de erro */
+.error-message {
+  color: red;
+  font-size: 0.875rem; /* Tamanho da fonte menor para a mensagem de erro */
+  margin-top: 5px; /* Espaço acima da mensagem */
+}
