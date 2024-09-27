@@ -57,12 +57,14 @@
       <div *ngIf="videoUrl" class="container-video">
         <iframe [src]="videoUrl" width="80%" height="350" frameborder="0" allowfullscreen></iframe>
       </div>               
+      <!-- Botão de conclusão do curso -->
       <button *ngIf="isUltimoModulo()" (click)="concluirCurso()" class="btn btn-concluir" id="concluir" >
         Emitir Certificado!
       </button>
     </div>
 
-    <!-- Botão de conclusão do curso -->
+  <!-- ChatBot -->
+  <iframe src="../.././../assets/ChatBot_Genius/chat.html" style="width: 100%; height: 400px; border: none;"></iframe>
     
   </div>
 </div>
