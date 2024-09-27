@@ -1,22 +1,42 @@
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
 <body>
+  <h1>Bem-vindo ao <strong>BeGenius</strong>, a plataforma de treinamentos da <strong>Eurofarma</strong>!</h1>
   <div class="welcome-message">
-    <h1>Bem-vindo ao BeGenius, a plataforma de treinamentos da Eurofarma!</h1>
-    <form (submit)="onLogin()">
-      <div class="form-group">
-        <label for="username">Usuário</label>
-        <input type="text" [(ngModel)]="username" class="form-control" id="username" name="username" required>
-      </div>
-      <div class="form-group">
-        <label for="password">Senha</label>
-        <input type="password" [(ngModel)]="password" class="form-control" id="password" name="password" required>
-      </div>
-      <button type="submit" class="btn btn-primary">Login</button>
-    </form>
-  
+    <div class="container-login">
+      <form (submit)="onLogin()">
+        <div class="form-group">
+          <label class="label" for="username">Usuário</label>
+          <input
+            type="text"
+            [(ngModel)]="username"
+            class="form-control"
+            id="username"
+            name="username"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label class="label" for="password">Senha</label>
+          <input
+            type="password"
+            [(ngModel)]="password"
+            class="form-control"
+            id="password"
+            name="password"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+    </div>
+
     <!-- Exibe mensagem de erro caso o login falhe -->
     <div *ngIf="errorMessage" class="alert alert-danger">
       {{ errorMessage }}
     </div>
     <h3>By Solv!ng</h3>
-  </div>  
 </body>

@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plataforma de Treinamentos Eurofarma</title>
-    <link rel="stylesheet" href="home.component.css">
+    <link rel="stylesheet" href="home.component.css" />
     <!-- Importar ícones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <app-navbar></app-navbar>
     <div class="header">
-      <h1>Bem-vindo à Plataforma {{usuario?.nome}} de Treinamentos Eurofarma!</h1>
+      <h1 class>
+        Bem-vindo(a) à Plataforma de Treinamentos Eurofarma,
+        {{ usuario?.nome }}!
+      </h1>
     </div>
-  
+
     <!-- Exibe o dashboard apenas para administradores -->
-    <iframe *ngIf="isAdmin"
-            title="Análise de Desempenho - Log dos Treinamentos"
-            width="100%"
-            height="600"
-            src="https://app.powerbi.com/view?r=eyJrIjoiODU2M2JmYzctMDk2Yi00ODA3LWI2NjktZTcxNGFkMGVkYmE2IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9"
-            frameborder="0"
-            allowFullScreen="true">
+    <iframe
+      *ngIf="isAdmin"
+      title="Análise de Desempenho - Log dos Treinamentos"
+      width="100%"
+      height="600"
+      src="https://app.powerbi.com/view?r=eyJrIjoiODU2M2JmYzctMDk2Yi00ODA3LWI2NjktZTcxNGFkMGVkYmE2IiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9"
+      frameborder="0"
+      allowFullScreen="true"
+    >
     </iframe>
-  
+
     <div class="container">
-      <div class="todos-cursos">
-        <h2 class="header">Cursos Disponíveis</h2>
+      <div class="meus-cursos">
+        <h2 class="header">Meus cursos</h2>
         <div class="todos-cursos-container">
-          <ng-container *ngFor="let item of treinamentos; let i = index;">
+          <ng-container *ngFor="let item of treinamentos; let i = index">
             <div class="curso-card">
-              <a [routerLink]="['/treinamentos', item.id]" class="curso-card-link">
-                <img [src]="item.imagem" alt="Curso {{i + 1}}">
-                <div class="card-body">
-                  <h5 class="card-title">{{item.titulo}}</h5>
+              <a
+                [routerLink]="['/treinamentos', item.id]"
+                class="curso-card-link"
+              >
+                <div class="curso-card-image">
+                  <img [src]="item.imagem" alt="Curso {{ i + 1 }}" />
+                  <h5 class="card-title"><strong>{{ item.titulo }}</strong></h5>
                 </div>
               </a>
             </div>
@@ -42,11 +59,62 @@
         </div>
       </div>
     </div>
+  </body>
 
-    
-    <!-- <div class="">
-      <iframe src="../.././../assets/ChatBot_Genius/chat.html" style="width: 100%; height: 400px; border: none;"></iframe>
-    </div> -->
-
+  <body>
+    <div class="container">
+      <!-- Seção Todos os Cursos -->
+      <div class="todos-cursos">
+        <h2>Todos os Cursos</h2>
+        <div class="todos-cursos-container">
+          <ng-container *ngFor="let item of treinamentos; let i = index">
+            <div class="curso-card">
+              <a
+                [routerLink]="['/treinamentos', item.id]"
+                class="curso-card-link"
+              >
+                <div class="curso-card-image">
+                  <img [src]="item.imagem" alt="Curso {{ i + 1 }}" />
+                  <h5 class="card-title"><strong>{{ item.titulo }}</strong></h5>
+                </div>
+              </a>
+            </div>
+            <div class="curso-card">
+              <a
+                [routerLink]="['/treinamentos', item.id]"
+                class="curso-card-link"
+              >
+                <div class="curso-card-image">
+                  <img [src]="item.imagem" alt="Curso {{ i + 1 }}" />
+                  <h5 class="card-title"><strong>{{ item.titulo }}</strong></h5>
+                </div>
+              </a>
+            </div>
+            <div class="curso-card">
+              <a
+                [routerLink]="['/treinamentos', item.id]"
+                class="curso-card-link"
+              >
+                <div class="curso-card-image">
+                  <img [src]="item.imagem" alt="Curso {{ i + 1 }}" />
+                  <h5 class="card-title"><strong>{{ item.titulo }}</strong></h5>
+                </div>
+              </a>
+            </div>
+            <div class="curso-card">
+              <a
+                [routerLink]="['/treinamentos', item.id]"
+                class="curso-card-link"
+              >
+                <div class="curso-card-image">
+                  <img [src]="item.imagem" alt="Curso {{ i + 1 }}" />
+                  <h5 class="card-title"><strong>{{ item.titulo }}</strong></h5>
+                </div>
+              </a>
+            </div>
+          </ng-container>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

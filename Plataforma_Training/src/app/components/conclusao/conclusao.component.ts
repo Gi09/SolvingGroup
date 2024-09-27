@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { LogService } from '../../services/log.service';
 
 @Component({
@@ -6,10 +6,11 @@ import { LogService } from '../../services/log.service';
   standalone: true,
   imports: [],
   templateUrl: './conclusao.component.html',
-  styleUrl: './conclusao.component.css'
+  styleUrls: ['./conclusao.component.css'], // Corrigido para styleUrls
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class ConclusaoComponent {
-  constructor(private logService: LogService) { }
+  constructor(private logService: LogService) {}
 
   // Função para capturar cliques
   registrarClicks(botaoId: string, acao: () => void) {
@@ -31,5 +32,4 @@ export class ConclusaoComponent {
     // Executa a ação original (ex: voltar página, próximo módulo, etc.)
     acao();
   }
-
 }

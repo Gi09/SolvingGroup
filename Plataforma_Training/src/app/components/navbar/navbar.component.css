@@ -1,12 +1,14 @@
+
 .navbar {
+    background-color: #002c4e;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: white;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.419);
+
+    /* margin-bottom: 20px; */
+    border-bottom: 5px solid rgb(255, 242, 0); /* Borda inferior de 2px com a cor azul */
 }
 
 .navbar img {
@@ -23,14 +25,26 @@
     align-items: center;
     gap: 10px;
     transition: transform 0.3s ease; 
+    text-decoration: none;
 }
 
 .navbar a:hover {
     color: #002c4e;
-    transform: scale(1.15);
+    transform: scale(1.08);
 }
 
 /* Icone de sair */
 .navbar a .icon {
     font-size: 1.2em;
 }
+
+.navbar-links {
+  display: flex; /* Permite que os links sejam alinhados em linha */
+}
+
+.navbar-links a {
+  color: #002c4e;/* Cor do texto dos links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  margin-left: 20px; /* Espaçamento entre os links */
+}
+

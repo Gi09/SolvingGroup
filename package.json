@@ -1,0 +1,12 @@
+{
+  "name": "solvinggroup",
+  "version": "1.0.0",
+  "description": "Bem-vindo à Plataforma de Treinamento Online Train!ng, um sistema completo voltado para a gestão e execução de treinamentos, com funcionalidades avançadas para administradores e usuários padrão.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}
