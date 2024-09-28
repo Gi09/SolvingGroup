@@ -16,7 +16,8 @@ body {
     background-repeat: no-repeat; 
     background-position: center;  
     height: 150%;               
-    margin: 0;  
+    margin: 0; 
+
 
 }
 
@@ -32,6 +33,7 @@ h2{
     margin: 0 auto;
 }
 
+ /* Ajuste conforme necessário *
 /* Cabeçalho */
 /* .header {
     text-align: center;
@@ -119,3 +121,26 @@ h2{
     background-color: rgb(255, 242, 0);
       font-family: "Raleway", sans-serif;    /* Bordas arredondadas *//* Remove margens extras */
 }
+
+/* Contêiner do Chatbot */
+.chatbot-container {
+    position: fixed; /* Fixado na posição especificada */
+    bottom: 20px;    /* Distância do canto inferior */
+    right: 20px;     /* Distância do canto direito */
+    width: 500px;    /* Largura do contêiner */
+    height: 470px;   /* Altura do contêiner */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Esconde partes excedentes do iframe */
+    z-index: 9999;    /* Garantir que o chatbot esteja acima de outros elementos */
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .chatbot-container {
+        width: 5cqb;  /* Ajusta largura em telas menores */
+        height: 400px; /* Altura menor em telas menores */
+        bottom: 10px; /* Ajusta a distância do rodapé */
+        right: 5%; /* Centraliza mais em telas pequenas */
+    }
+}
+
