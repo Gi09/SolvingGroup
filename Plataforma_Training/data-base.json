@@ -181,7 +181,7 @@
         "id": "2",
         "nome": "Maria Oliveira",
         "email": "usuario.padrao@email.com",
-        "senha": "1234",
+        "senha": "5678",
         "role": "usuario"
       }
     ]

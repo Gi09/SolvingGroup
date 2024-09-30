@@ -36,9 +36,11 @@ A plataforma oferece uma experiência fluida para acesso a módulos e cursos, al
 - CSS3
 ### Backend:
 - TypeScript
+- Python
+- C#
 ### Banco de Dados:
 - MySQL
 ### Chat em Tempo Real:
 - API GPT-3.5
 ### Serviços de Transcrição e Adaptação de Leitura:
-- API GPT-3.5
+- Flask
