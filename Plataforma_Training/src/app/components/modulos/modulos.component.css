@@ -9,7 +9,7 @@
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    height: 800px;
+    height: 900px;
   }
   
   .right-panel {
@@ -124,6 +124,7 @@
 .btn-concluir{
   background-color: rgb(255, 242, 0);
   width: 600px;
+  margin-top: 20px;
 }
 
 .btn-concluir:hover{
@@ -139,3 +140,12 @@
     border-radius: 10px;
   }
   
+.question{
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+  .question-container{
+    text-align: start;
+  }

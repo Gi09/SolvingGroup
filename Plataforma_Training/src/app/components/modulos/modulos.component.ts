@@ -22,6 +22,8 @@ export class ModulosComponent implements OnInit {
   moduloForm: FormGroup;
   moduloAtual = 0;
   videoUrl?: SafeResourceUrl;
+  opcoes: string[] = ['Critérios para embargos e interdições de obras', 'Responsabilidades e direitos dos empregadores e trabalhadores em relação à segurança e saúde no trabalho', 'Procedimentos para controle de riscos ocupacionais', 'Requisitos para controle médico de saúde ocupacional'];
+  respostaCorreta: boolean = false;
 
   constructor(
     private route: ActivatedRoute,
@@ -156,11 +158,13 @@ export class ModulosComponent implements OnInit {
 
   // Conclusão do curso
   concluirCurso(): void {
+     if (this.respostaCorreta) {
     this.registrarClicks('concluirCurso', () => {
       // Redireciona o usuário para a página de conclusão do curso
       this.router.navigate(['/conclusao-curso']);
       console.log('Curso Concluído');
-    });
+    }
+     )};
   }
 
   // Volta para o início
@@ -173,4 +177,9 @@ export class ModulosComponent implements OnInit {
     const videoId = videoUrl.split('v=')[1]?.split('&')[0];
     return `https://www.youtube.com/embed/${videoId}`;
   }
+
+    onRespostaSelecionada(index: number): void {
+    this.respostaCorreta = (index === 1); // Verifica se a primeira opção foi selecionada
+  }
+
 }
